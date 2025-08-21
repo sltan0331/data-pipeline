@@ -3,7 +3,7 @@ This is a function to transport csv generated in
 """
 import os, base64, json, requests
 
-GITHUB_TOKEN   = os.environ.get("GITHUB_TOKEN")  #Generated token in targeted generation folder
+GITHUB_TOKEN   = os.environ.get("community-data-access")  #Generated token in targeted generation folder
 OWNER          = "sltan0331"                    #Owner of github
 REPO           = "community-data"                # Objective repository
 BRANCH         = "main"
